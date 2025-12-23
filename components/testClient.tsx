@@ -2,6 +2,6 @@
 
 const TestClient = () => {
   console.log("I am Client Component");
-  return <div>TestClient</div>;
+  return <>TestClient</>;
 };
 export default TestClient;

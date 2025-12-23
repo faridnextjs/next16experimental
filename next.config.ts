@@ -6,6 +6,15 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   crossOrigin: "anonymous",
 
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+    ],
+  },
+
   experimental: {
     browserDebugInfoInTerminal: true,
     cssChunking: true, // default
